@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_user_alias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        tools:text="User alias"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/text_view_user_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="France"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/text_view_user_creation_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="21/03/2013"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/text_view_user_website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:text="@string/website"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/text_view_gold_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="203"
+        android:drawableStart="@drawable/gold_medal"/>
+
+    <TextView
+        android:id="@+id/text_view_silver_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="553"
+        android:drawableStart="@drawable/silver_medal"/>
+
+    <TextView
+        android:id="@+id/text_view_bronze_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="779"
+        android:drawableStart="@drawable/bronze_medal"/>
+
+</LinearLayout>

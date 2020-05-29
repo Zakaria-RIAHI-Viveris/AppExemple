@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppExemple</string>
+    <string name="creation_date">Creation date : %1$s</string>
+    <string name="website">Website</string>
+    <string name="enter_your_alias">Enter your alias</string>
+    <string name="save">Save</string>
+</resources>

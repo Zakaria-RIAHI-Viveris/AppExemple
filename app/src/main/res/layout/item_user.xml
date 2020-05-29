@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/view_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_user_alias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="User alias"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="6">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/gold_medal" />
+
+        <TextView
+            android:id="@+id/text_view_gold_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="203"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/silver_medal" />
+
+        <TextView
+            android:id="@+id/text_view_silver_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="565"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/bronze_medal" />
+
+        <TextView
+            android:id="@+id/text_view_bronze_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="779"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
